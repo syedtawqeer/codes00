@@ -1,0 +1,22 @@
+//Any integer is input through the keyboard. Write a program to find out whether it is an odd number or even number
+
+
+#include<iostream.h>
+#include<conio.h>
+ main()
+{
+            int n ;
+           
+           cout<<"Enter any number : ";
+           cin>>n ;
+            if (n%2 == 0)
+             {
+                 cout<<"The number is even"<<endl ;
+             }
+            else
+             {
+                 cout<<"The number is odd" ;
+             }
+                 cout<<"Press any Key to Exit.";
+          return 0 ; 
+ }
